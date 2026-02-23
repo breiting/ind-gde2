@@ -3,3 +3,7 @@
 _Lecture Notes_
 
 This repository contains sample code for the lecture _Generative Design 2_ being held at FH Joanneum Graz in summer semester 2026.
+
+## Additional Resources
+
+We are using the INDbox for several examples. This hardware box is also open source and can be found unter https://github.com/breiting/indbox.
