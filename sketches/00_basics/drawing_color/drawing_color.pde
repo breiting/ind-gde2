@@ -25,9 +25,9 @@ void draw() {
   ellipse(160, 180, 140, 140);
 
   // Example 2: stroke + fill
-  stroke(20);
+  stroke(color(255, 0, 0));
   strokeWeight(6);
-  fill(255);
+  fill(0, 255, 0);
   rectMode(CENTER);
   rect(320, 180, 160, 160);
 
@@ -35,7 +35,7 @@ void draw() {
   noFill();
   stroke(0);
   strokeWeight(2);
-  ellipse(480, 180, 160, 160);
+  ellipse(500, 180, 160, 160);
 
   // Tiny labels
   fill(0);
