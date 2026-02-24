@@ -73,7 +73,7 @@ def update(val):
 
     ax_circle.scatter(x_c, y_c, s=100, color=color_proj_sin)
     ax_circle.scatter(x_c, 0, s=100, color=color_proj_cos)
-    ax_circle.text(x_c / 2, y_c / 2, "θ", fontsize=12)
+    # ax_circle.text(x_c / 2, y_c / 2, "θ", fontsize=12)
 
     ax_circle.set_aspect("equal")
     ax_circle.set_xlim(-1.5, 1.5)
