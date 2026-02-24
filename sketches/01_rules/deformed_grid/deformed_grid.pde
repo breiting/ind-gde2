@@ -1,3 +1,5 @@
+
+
 int cols = 50;
 int rows = 50;
 float spacing;
@@ -20,7 +22,6 @@ void draw() {
       float px = x * spacing;
       float py = y * spacing;
 
-      // zeitliche Verschiebung
       float offsetX = sin(frameCount * 0.05 + y * 0.3) * distortion;
       float offsetY = cos(frameCount * 0.05 + x * 0.3) * distortion;
 
