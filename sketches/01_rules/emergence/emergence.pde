@@ -1,3 +1,4 @@
+
 int N = 80;
 float freq = 0.05;
 float speed = 0.0005;
@@ -21,6 +22,7 @@ void draw() {
 
       float d = dist(px, py, width/2, height/2);
 
+      // change t to a static value (e.g. 0.2) and see what happens
       float wave = sin(d * t);
       float size = map(wave, -1, 1, 1, 10);
 
