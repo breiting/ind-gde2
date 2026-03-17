@@ -1,5 +1,5 @@
 PImage img;
-int step = 7;
+float step = 7;
 
 void setup() {
   size(1000, 1333);
@@ -7,7 +7,6 @@ void setup() {
   img.loadPixels();
   
   noStroke();
-  noLoop();
   fill(0);
 }
 
@@ -21,6 +20,8 @@ void draw() {
       color c = img.pixels[y * img.width + x];
       // get the brightness
       float b = brightness(c);
+
+      step = map(mouseX, 0, width, 2, 50);
 
       // map brightness to size (darker pixel, bigger circle)
       float d = map(b, 0, 255, step, 1);
