@@ -26,9 +26,10 @@ void drawCircle(float x, float y, float r) {
 }
 
 void draw() {
+  background(0);
   box.update();
 
-  maxValue = map(box.pot(), 4095, 0, 10, 100);
+  maxValue = map(box.pot(), 4095, 0, 10, 400);
 
   drawCircle(width / 2, height / 2, 400);
 }
