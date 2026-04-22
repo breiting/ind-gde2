@@ -46,6 +46,7 @@ void draw() {
 }
 
 void branch(float len, int depth) {
+  strokeWeight(depth);
   line(0, 0, 0, -len);
   translate(0, -len);
 
